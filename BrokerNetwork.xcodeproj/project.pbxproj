@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92D4FE53280973B0003679AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D4FE52280973B0003679AB /* AppDelegate.swift */; };
+		92D4FE55280973B0003679AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D4FE54280973B0003679AB /* SceneDelegate.swift */; };
+		92D4FE5D280973B0003679AB /* BrokerNetwork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92D4FE5B280973B0003679AB /* BrokerNetwork.xcdatamodeld */; };
+		92D4FE5F280973B4003679AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92D4FE5E280973B4003679AB /* Assets.xcassets */; };
+		92D4FE62280973B4003679AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92D4FE60280973B4003679AB /* LaunchScreen.storyboard */; };
+		92D4FE702809741A003679AB /* BrokerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D4FE6F2809741A003679AB /* BrokerViewModel.swift */; };
+		92D4FE762809754F003679AB /* BrokerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D4FE742809754F003679AB /* BrokerTableViewController.swift */; };
+		92D4FE772809754F003679AB /* BrokerTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92D4FE752809754F003679AB /* BrokerTableViewController.xib */; };
+		92D4FE7B280977C3003679AB /* BrokerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D4FE79280977C3003679AB /* BrokerTableViewCell.swift */; };
+		92D4FE7C280977C3003679AB /* BrokerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92D4FE7A280977C3003679AB /* BrokerTableViewCell.xib */; };
+		92D4FE862809A039003679AB /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D4FE852809A039003679AB /* APIServices.swift */; };
+		92D4FE892809A0D1003679AB /* Enum Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D4FE882809A0D1003679AB /* Enum Constants.swift */; };
+		92D4FE8B280D2F05003679AB /* Function Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D4FE8A280D2F05003679AB /* Function Constants.swift */; };
+		92D4FE8F280D37B1003679AB /* BrokerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D4FE8D280D37B1003679AB /* BrokerCollectionViewCell.swift */; };
+		92D4FE90280D37B1003679AB /* BrokerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92D4FE8E280D37B1003679AB /* BrokerCollectionViewCell.xib */; };
+		92D4FE92280D47FF003679AB /* UI Attributes Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D4FE91280D47FF003679AB /* UI Attributes Constants.swift */; };
+		92D4FE98280D5906003679AB /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D4FE97280D5906003679AB /* UIExtensions.swift */; };
+		92D4FE9A280D5D44003679AB /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D4FE99280D5D44003679AB /* Models.swift */; };
+		92D4FE9E280D7D13003679AB /* ReactiveListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D4FE9D280D7D13003679AB /* ReactiveListener.swift */; };
+		92D4FEA1280D9486003679AB /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 92D4FEA0280D9486003679AB /* SDWebImage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		92D4FE4F280973B0003679AB /* BrokerNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrokerNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92D4FE52280973B0003679AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92D4FE54280973B0003679AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		92D4FE5C280973B0003679AB /* BrokerNetwork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BrokerNetwork.xcdatamodel; sourceTree = "<group>"; };
+		92D4FE5E280973B4003679AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92D4FE61280973B4003679AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92D4FE63280973B4003679AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92D4FE6F2809741A003679AB /* BrokerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokerViewModel.swift; sourceTree = "<group>"; };
+		92D4FE742809754F003679AB /* BrokerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokerTableViewController.swift; sourceTree = "<group>"; };
+		92D4FE752809754F003679AB /* BrokerTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BrokerTableViewController.xib; sourceTree = "<group>"; };
+		92D4FE79280977C3003679AB /* BrokerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokerTableViewCell.swift; sourceTree = "<group>"; };
+		92D4FE7A280977C3003679AB /* BrokerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BrokerTableViewCell.xib; sourceTree = "<group>"; };
+		92D4FE852809A039003679AB /* APIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
+		92D4FE882809A0D1003679AB /* Enum Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Enum Constants.swift"; sourceTree = "<group>"; };
+		92D4FE8A280D2F05003679AB /* Function Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Function Constants.swift"; sourceTree = "<group>"; };
+		92D4FE8D280D37B1003679AB /* BrokerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokerCollectionViewCell.swift; sourceTree = "<group>"; };
+		92D4FE8E280D37B1003679AB /* BrokerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BrokerCollectionViewCell.xib; sourceTree = "<group>"; };
+		92D4FE91280D47FF003679AB /* UI Attributes Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI Attributes Constants.swift"; sourceTree = "<group>"; };
+		92D4FE97280D5906003679AB /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		92D4FE99280D5D44003679AB /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		92D4FE9D280D7D13003679AB /* ReactiveListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveListener.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92D4FE4C280973B0003679AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D4FEA1280D9486003679AB /* SDWebImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92D4FE46280973B0003679AB = {
+			isa = PBXGroup;
+			children = (
+				92D4FE51280973B0003679AB /* BrokerNetwork */,
+				92D4FE50280973B0003679AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92D4FE50280973B0003679AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92D4FE4F280973B0003679AB /* BrokerNetwork.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92D4FE51280973B0003679AB /* BrokerNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				92D4FE9B280D7CF3003679AB /* Utility */,
+				92D4FE96280D58F0003679AB /* Extensions */,
+				92D4FE872809A0BE003679AB /* Constants */,
+				92D4FE7828097554003679AB /* Views */,
+				92D4FE6C280973EA003679AB /* ViewControllers */,
+				92D4FE6B280973E0003679AB /* ViewModels */,
+				92D4FE69280973C7003679AB /* Models */,
+				92D4FE52280973B0003679AB /* AppDelegate.swift */,
+				92D4FE54280973B0003679AB /* SceneDelegate.swift */,
+				92D4FE5E280973B4003679AB /* Assets.xcassets */,
+				92D4FE60280973B4003679AB /* LaunchScreen.storyboard */,
+				92D4FE63280973B4003679AB /* Info.plist */,
+				92D4FE5B280973B0003679AB /* BrokerNetwork.xcdatamodeld */,
+			);
+			path = BrokerNetwork;
+			sourceTree = "<group>";
+		};
+		92D4FE69280973C7003679AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				92D4FE7328097444003679AB /* APIs */,
+				92D4FE7128097434003679AB /* Entities */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		92D4FE6B280973E0003679AB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				92D4FE6F2809741A003679AB /* BrokerViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		92D4FE6C280973EA003679AB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				92D4FE742809754F003679AB /* BrokerTableViewController.swift */,
+				92D4FE752809754F003679AB /* BrokerTableViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		92D4FE7128097434003679AB /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				92D4FE99280D5D44003679AB /* Models.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		92D4FE7328097444003679AB /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				92D4FE852809A039003679AB /* APIServices.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		92D4FE7828097554003679AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				92D4FE8C280D3771003679AB /* BrokerCollectionViewCell */,
+				92D4FE7D28098519003679AB /* BrokerTableViewCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		92D4FE7D28098519003679AB /* BrokerTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				92D4FE79280977C3003679AB /* BrokerTableViewCell.swift */,
+				92D4FE7A280977C3003679AB /* BrokerTableViewCell.xib */,
+			);
+			path = BrokerTableViewCell;
+			sourceTree = "<group>";
+		};
+		92D4FE872809A0BE003679AB /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				92D4FE882809A0D1003679AB /* Enum Constants.swift */,
+				92D4FE8A280D2F05003679AB /* Function Constants.swift */,
+				92D4FE91280D47FF003679AB /* UI Attributes Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		92D4FE8C280D3771003679AB /* BrokerCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				92D4FE8D280D37B1003679AB /* BrokerCollectionViewCell.swift */,
+				92D4FE8E280D37B1003679AB /* BrokerCollectionViewCell.xib */,
+			);
+			path = BrokerCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		92D4FE96280D58F0003679AB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				92D4FE97280D5906003679AB /* UIExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		92D4FE9B280D7CF3003679AB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				92D4FE9C280D7CFB003679AB /* ReactiveListener */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		92D4FE9C280D7CFB003679AB /* ReactiveListener */ = {
+			isa = PBXGroup;
+			children = (
+				92D4FE9D280D7D13003679AB /* ReactiveListener.swift */,
+			);
+			path = ReactiveListener;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92D4FE4E280973B0003679AB /* BrokerNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92D4FE66280973B4003679AB /* Build configuration list for PBXNativeTarget "BrokerNetwork" */;
+			buildPhases = (
+				92D4FE4B280973B0003679AB /* Sources */,
+				92D4FE4C280973B0003679AB /* Frameworks */,
+				92D4FE4D280973B0003679AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrokerNetwork;
+			packageProductDependencies = (
+				92D4FEA0280D9486003679AB /* SDWebImage */,
+			);
+			productName = BrokerNetwork;
+			productReference = 92D4FE4F280973B0003679AB /* BrokerNetwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92D4FE47280973B0003679AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					92D4FE4E280973B0003679AB = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 92D4FE4A280973B0003679AB /* Build configuration list for PBXProject "BrokerNetwork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92D4FE46280973B0003679AB;
+			packageReferences = (
+				92D4FE9F280D9486003679AB /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
+			productRefGroup = 92D4FE50280973B0003679AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92D4FE4E280973B0003679AB /* BrokerNetwork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92D4FE4D280973B0003679AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D4FE7C280977C3003679AB /* BrokerTableViewCell.xib in Resources */,
+				92D4FE62280973B4003679AB /* LaunchScreen.storyboard in Resources */,
+				92D4FE90280D37B1003679AB /* BrokerCollectionViewCell.xib in Resources */,
+				92D4FE5F280973B4003679AB /* Assets.xcassets in Resources */,
+				92D4FE772809754F003679AB /* BrokerTableViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92D4FE4B280973B0003679AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D4FE98280D5906003679AB /* UIExtensions.swift in Sources */,
+				92D4FE862809A039003679AB /* APIServices.swift in Sources */,
+				92D4FE702809741A003679AB /* BrokerViewModel.swift in Sources */,
+				92D4FE762809754F003679AB /* BrokerTableViewController.swift in Sources */,
+				92D4FE92280D47FF003679AB /* UI Attributes Constants.swift in Sources */,
+				92D4FE5D280973B0003679AB /* BrokerNetwork.xcdatamodeld in Sources */,
+				92D4FE7B280977C3003679AB /* BrokerTableViewCell.swift in Sources */,
+				92D4FE53280973B0003679AB /* AppDelegate.swift in Sources */,
+				92D4FE55280973B0003679AB /* SceneDelegate.swift in Sources */,
+				92D4FE8F280D37B1003679AB /* BrokerCollectionViewCell.swift in Sources */,
+				92D4FE8B280D2F05003679AB /* Function Constants.swift in Sources */,
+				92D4FE9E280D7D13003679AB /* ReactiveListener.swift in Sources */,
+				92D4FE892809A0D1003679AB /* Enum Constants.swift in Sources */,
+				92D4FE9A280D5D44003679AB /* Models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92D4FE60280973B4003679AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92D4FE61280973B4003679AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92D4FE64280973B4003679AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92D4FE65280973B4003679AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92D4FE67280973B4003679AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BrokerNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NeosoftTechnologies.BrokerNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92D4FE68280973B4003679AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BrokerNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NeosoftTechnologies.BrokerNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92D4FE4A280973B0003679AB /* Build configuration list for PBXProject "BrokerNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D4FE64280973B4003679AB /* Debug */,
+				92D4FE65280973B4003679AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92D4FE66280973B4003679AB /* Build configuration list for PBXNativeTarget "BrokerNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D4FE67280973B4003679AB /* Debug */,
+				92D4FE68280973B4003679AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		92D4FE9F280D9486003679AB /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.12.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		92D4FEA0280D9486003679AB /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92D4FE9F280D9486003679AB /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		92D4FE5B280973B0003679AB /* BrokerNetwork.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				92D4FE5C280973B0003679AB /* BrokerNetwork.xcdatamodel */,
+			);
+			currentVersion = 92D4FE5C280973B0003679AB /* BrokerNetwork.xcdatamodel */;
+			path = BrokerNetwork.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 92D4FE47280973B0003679AB /* Project object */;
+}
